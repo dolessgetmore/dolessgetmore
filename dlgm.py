@@ -10,6 +10,3 @@ def bye():
 
 def really():
     print("정말")
-
-
-parse.parse("hi")
