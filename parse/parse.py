@@ -8,7 +8,7 @@ except:
 
 def parse(text):
     try:
-        text = ps(text)
+        text = (text)
     except:
         pass
     return text
