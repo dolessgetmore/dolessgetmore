@@ -4,3 +4,8 @@ def hello():
 
 def bye():
     print("나중에봐")
+
+
+
+def really():
+    print("정말")
