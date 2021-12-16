@@ -1,3 +1,5 @@
+from .parse import parse
+
 def hello():
     print("안녕")
 
