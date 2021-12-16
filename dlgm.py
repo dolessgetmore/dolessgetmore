@@ -1,4 +1,4 @@
-from .parse import parse
+from parse import parse
 
 def hello():
     print("안녕")
@@ -10,3 +10,6 @@ def bye():
 
 def really():
     print("정말")
+
+
+parse.parse("hi")
