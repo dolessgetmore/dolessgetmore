@@ -11,5 +11,5 @@ with github_repo('dolessgetmore', 'dolessgetmore',['dlgm']):
 
 print(dlgm)
 
-dlgm.bye()
+dlgm.dlgm.bye()
 # print(parse.__author__)
