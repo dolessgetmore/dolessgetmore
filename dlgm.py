@@ -1,5 +1,5 @@
 try:
-    from .parse import parse
+    from parse import parse
 except:
     print(f"from .parse import parse")
 
