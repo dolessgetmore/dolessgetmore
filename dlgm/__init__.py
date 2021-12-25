@@ -11,3 +11,15 @@ __author__ = 'dolessgetmore'
 __email__ = 'john.torakis@gmail.com'
 __github__ = 'https://github.com/operatorequals/covertutils'
 __readthedocs__ = 'https://covertutils.readthedocs.io'
+
+
+def hello():
+    print("안녕")
+
+
+def bye():
+    print("나중에봐")
+
+
+def really():
+    print("정말")
