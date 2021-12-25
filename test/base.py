@@ -9,5 +9,7 @@ with github_repo('dolessgetmore', 'dolessgetmore',['dlgm']):
     # import dlgm as gh_dlgm
     import dlgm
 
-print(dlgm.__author__)
+print(dlgm)
+
+dlgm.bye()
 # print(parse.__author__)
