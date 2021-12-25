@@ -5,11 +5,10 @@ import logging
 logging.getLogger('httpimport').setLevel(logging.DEBUG)
 
 
-with github_repo('dolessgetmore', 'dolessgetmore',['dlgm']):
+with github_repo('dolessgetmore', 'dolessgetmore',['dlgm','game.sound.dog']):
     # import dlgm as gh_dlgm
-    import dlgm
+    import game.sound.dog
 
-print(dlgm)
+print(game.sound.dog)
 
-dlgm.bye()
 # print(parse.__author__)
