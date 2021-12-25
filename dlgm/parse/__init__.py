@@ -6,8 +6,8 @@ The module does not provide networking functionalities. All networking has to be
 """
 
 __version__ = '0.3.4'
-__name__ = 'parse'
-__author__ = 'John Torakis - operatorequals'
+__name__ = 'dlgm'
+__author__ = 'dolessgetmore'
 __email__ = 'john.torakis@gmail.com'
 __github__ = 'https://github.com/operatorequals/covertutils'
 __readthedocs__ = 'https://covertutils.readthedocs.io'

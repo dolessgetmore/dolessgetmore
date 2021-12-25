@@ -7,7 +7,7 @@ logging.getLogger('httpimport').setLevel(logging.DEBUG)
 
 with github_repo('dolessgetmore', 'dolessgetmore', ['dlgm']):
     # import dlgm as gh_dlgm
-    import dlgm.dlgm as dlgm
+    import dlgm
 
 print(dlgm)
 # print(parse.__author__)
