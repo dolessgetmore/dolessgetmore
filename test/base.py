@@ -5,8 +5,9 @@ import logging
 logging.getLogger('httpimport').setLevel(logging.DEBUG)
 
 
-with github_repo('dolessgetmore', 'dolessgetmore', ['dlgm']):
-    import dlgm as gh_dlgm
+with github_repo('dolessgetmore', 'dolessgetmore', ['dlgm','parse']):
+    # import dlgm as gh_dlgm
+    import parse
 
 
-print(gh_dlgm)
+print(parse())
