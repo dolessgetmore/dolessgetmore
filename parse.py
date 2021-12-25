@@ -11,14 +11,22 @@ except:
     """
     print(f"error on Import {cmd}")
 
+class Parsed:
+    def __init__(self, text):
+        self.input_type = type(text)
+        self.input_value = text
 
-def parse(text):
-    try:
-        text = (text)
-    except:
+    def money_value(self, number):
         pass
-    return text
+
+    def parse(self, text):
+        try:
+            text = (text)
+        except:
+            pass
+        return text
 
 if __name__=="__main__":
-    dt = parse('2022-01-01')
-    print(dt)
+    # dt = parse('2022-01-01')
+    # print(dt)
+    pass
