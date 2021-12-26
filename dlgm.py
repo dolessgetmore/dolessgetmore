@@ -1,4 +1,5 @@
-from parse import parse
+with github_repo('dolessgetmore', 'dolessgetmore',['parse']):
+    from parse import Parsed
 
 def hello():
     print("안녕")
