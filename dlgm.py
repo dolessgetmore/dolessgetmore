@@ -1,3 +1,4 @@
+from httpimport import github_repo
 with github_repo('dolessgetmore', 'dolessgetmore',['parse']):
     from parse import Parsed
 
