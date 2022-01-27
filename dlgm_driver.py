@@ -18,7 +18,7 @@ class MyDriver:
     def __init__(self, driver=None):
         self.set_driver(driver)
 
-    def set_driver(driver=None):
+    def set_driver(self, driver=None):
         if driver == None:
             driver = webdriver.Firefox()
         else:
