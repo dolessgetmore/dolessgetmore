@@ -11,6 +11,9 @@ except:
     """
     print(f"error on Import {cmd}")
 
+def datetime(text):
+    return ps(text)
+
 class Parsed:
     def __init__(self, text):
         self.input_type = type(text)
