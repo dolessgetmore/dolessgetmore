@@ -16,12 +16,10 @@ from selenium.webdriver.support import expected_conditions as EC
 
 class MyDriver:
     def __init__(self, driver=None):
+        self.driver = driver
         self.set_driver(driver)
 
-    def set_driver(self, driver=None):
-        if driver == None:
-            driver = webdriver.Firefox()
-        else:
-            driver = driver
-        driver.implicitly_wait(10)
-        return driver
+    def set_driver(self):
+        if not self.driver:
+            self.driver = webdriver.Firefox()
+        self.driver.implicitly_wait(10)
