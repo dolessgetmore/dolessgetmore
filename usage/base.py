@@ -5,5 +5,9 @@ import logging
 logging.getLogger('httpimport').setLevel(logging.DEBUG)
 
 
-with github_repo('dolessgetmore', 'dolessgetmore',['dlgm']):
-    import dlgm as dl
+from httpimport import github_repo
+with github_repo('dolessgetmore', 'dolessgetmore',['dlgm_parser', 'dlgm_driver']):
+    from dlgm_parser import Parser as ps
+    from dlgm_driver import MyDriver
+
+MyDriver.version
