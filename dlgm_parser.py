@@ -1,6 +1,6 @@
 import datetime
 try:
-    from dateutil.parser import parse as ps
+    from dateutil.parser import parse
 except:
     cmd = """
     error on "from dateutil.parser.parse import parse"
@@ -18,6 +18,9 @@ class Parser:
 
     def money_value(self, number):
         pass
+
+    def to_datetime(self):
+        return parse(self.input_value)
 
     def parse(self, text):
         try:
