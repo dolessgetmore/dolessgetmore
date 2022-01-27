@@ -16,7 +16,7 @@ from selenium.webdriver.support import expected_conditions as EC
 
 class MyDriver():
     
-    version = "220127_0131"
+    version = "220127_0153"
 
     def __init__(self, driver=None):
         self.driver = driver
